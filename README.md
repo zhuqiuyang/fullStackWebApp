@@ -18,7 +18,7 @@
 ```sh
 sudo apt install unzip
 
-cp .deno/bin/deno /usr/bin
+sudo cp .deno/bin/deno /usr/bin
 ```
 
 ## DataBase
