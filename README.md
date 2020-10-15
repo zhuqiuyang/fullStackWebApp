@@ -6,6 +6,7 @@
 
 > 运行在Brower(浏览器)里的应用程序`code`。(html + js + css)
 
+- 基于 Vue.js 实现了 html 静态页面
 
 ## Server (1)
 
@@ -44,6 +45,10 @@ deno run --allow-net mod.js
 
 curl localhost:8080
 ```
+
+### 静态资源服务器
+
+- serve html file
 
 ## DataBase
 
