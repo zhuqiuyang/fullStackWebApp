@@ -38,7 +38,11 @@ git clone https://仓库地址
 
 touch mod.js
 
+vim mod.js # add hellowold.
+
 deno run --allow-net mod.js
+
+curl localhost:8080
 ```
 
 ## DataBase
