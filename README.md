@@ -7,13 +7,17 @@
 > 运行在Brower(浏览器)里的应用程序`code`。(html + js + css)
 
 
-## Server
+## Server (1)
 
 > 运行在Linux上的 Web 服务
 
 功能：
 
 - 响应浏览器HTTP请求
+
+```sh
+sudo apt install unzip
+```
 
 ## DataBase
 
