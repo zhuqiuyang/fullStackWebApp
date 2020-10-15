@@ -1,6 +1,5 @@
 import { Application, Router, send } from "https://deno.land/x/oak/mod.ts";
 
-
 const router = new Router();
 router
   .get("/", async (context) => {
@@ -8,7 +7,12 @@ router
       root: `${Deno.cwd()}/dist`,
       index: "index.html",
     });
+  })
+  .get("/books", (ctx) => {
+  getQuery(ctx, { mergeParams: true });
   });
+
+
 const app = new Application();
 app.use(router.routes());
 app.use(router.allowedMethods());
