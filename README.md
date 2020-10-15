@@ -29,7 +29,16 @@ sudo cp .deno/bin/deno /usr/bin
 
 deno --version
 
-git clone https://
+git clone https://仓库地址
+```
+
+### mod.js
+
+```sh
+
+touch mod.js
+
+deno run --allow-net mod.js
 ```
 
 ## DataBase
