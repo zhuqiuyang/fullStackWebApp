@@ -8,7 +8,7 @@
 
 - 基于 Vue.js 实现了 html 静态页面
 
-## 2. Server (1)
+## 2. Server (step 1)
 
 > 运行在Linux上的 Web 服务
 
