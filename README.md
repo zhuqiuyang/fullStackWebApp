@@ -2,7 +2,7 @@
 
 > 这是一个简单的全栈web App. 基于 Deno + Vue + Mysql.
 
-## Client
+## Client (2)
 
 > 运行在Brower(浏览器)里的应用程序`code`。(html + js + css)
 
