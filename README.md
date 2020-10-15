@@ -2,13 +2,13 @@
 
 > 这是一个简单的全栈web App. 基于 Deno + Vue + Mysql.
 
-## Client (2)
+## 1. Client (step 2)
 
 > 运行在Brower(浏览器)里的应用程序`code`。(html + js + css)
 
 - 基于 Vue.js 实现了 html 静态页面
 
-## Server (1)
+## 2. Server (1)
 
 > 运行在Linux上的 Web 服务
 
@@ -33,7 +33,7 @@ deno --version
 git clone https://仓库地址
 ```
 
-### mod.js
+### 2.1 mod.js
 
 ```sh
 
@@ -46,10 +46,21 @@ deno run --allow-net mod.js
 curl localhost:8080
 ```
 
-### 静态资源服务器
+### 2.2 静态资源服务器
 
 - serve html file
 
-## DataBase
+```js
+// ork send
+// https://github.com/oakserver/oak#static-content
+```
+
+### 2.3 启动服务
+
+```sh
+deno run --allow-net --allow-read mod.js
+```
+
+## 3. DataBase
 
 > 持久化数据，保存Browser浏览器端用户需要的数据
