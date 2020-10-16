@@ -1,6 +1,9 @@
 import { Application, Router, send } from "https://deno.land/x/oak/mod.ts";
+import { BookAll } from './Books.js'
 
 const router = new Router();
+
+
 router
   .get("/", async (context) => {
     await send(context, context.request.url.pathname, {
@@ -8,8 +11,10 @@ router
       index: "index.html",
     });
   })
-  .get("/books", (ctx) => {
-  getQuery(ctx, { mergeParams: true });
+  .get("/books", async (ctx) => {
+    const res = await BookAll();
+    console.log(res.rows)
+    ctx.response.body = res.rows;
   });
 
 
