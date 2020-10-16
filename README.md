@@ -70,4 +70,8 @@ deno run --allow-net --allow-read mod.js
 - linux 系统: `install mysql`服务，
 - 数据库：创建用户，创建表，插入数据
 
+### mysql 使用
 
+- [菜鸟教程](https://www.runoob.com/mysql/mysql-connection.html)
+- docker-compose run 
+- docker-compose 安装：https://github.com/docker/compose/releases
