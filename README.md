@@ -64,3 +64,10 @@ deno run --allow-net --allow-read mod.js
 ## 3. DataBase
 
 > 持久化数据，保存Browser浏览器端用户需要的数据
+
+- client: html 页面，用户点击，发起HTTP请求。 
+- server 层 api：相应client端用户HTTP请求。（通过deno 三方库，实现mysql使用）
+- linux 系统: `install mysql`服务，
+- 数据库：创建用户，创建表，插入数据
+
+
